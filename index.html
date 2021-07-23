@@ -15,7 +15,7 @@
 <body>
   <!-- navigationbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <a class="navbar-brand" href="#">MY PROJECT</a>
+    <a class="navbar-brand" href="#">Bootstrap practice</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -216,9 +216,93 @@
     </a>
   </div>
   <!-- carousel end -->
-  <div class="album py-5 bg-primary">
-    <div class="container">
+  <div class="album py-2 bg-primary">
+    
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="img-fluid"
+                alt="html logo" style="height: 225px; width: 100%; display: block;" src="images/html1.png"
+                data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and  JavaScript</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="myButton" class="float-left submit-button btn-outline-primary">Learn
+                      More</button>
+  
+                    <script type="text/javascript">
+                      document.getElementById("myButton").onclick = function () {
+                        location.href = "https://www.w3schools.com/html/";
+                      };
+                    </script>
+  
+                  </div>
+                  <small class="text-muted">latest release :Living Standard (2021)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]" src="images/css3.png" data-holder-rendered="true"
+                style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="myButton3" class="float-left submit-button btn-outline-primary">Learn
+                      More</button>
+  
+                    <script type="text/javascript">
+                      document.getElementById("myButton3").onclick = function () {
+                        location.href = "https://www.w3schools.com/css/";
+                      };
+                    </script>
+  
+                  </div>
+                  <small class="text-muted"> latest: css3</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]" src="images/JavaScript-logo.png" data-holder-rendered="true"
+                style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text"> JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="myButton2" class="float-left submit-button btn-outline-primary">Learn
+                      More</button>
+  
+                    <script type="text/javascript">
+                      document.getElementById("myButton2").onclick = function () {
+                        location.href = "https://www.w3schools.com/js/DEFAULT.asp";
+                      };
+                    </script>
+  
+                  </div>
+                  <small class="text-muted"> ECMAScript 2020</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+
+  <div class="album py-2 bg-primary">
+    <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
@@ -278,12 +362,10 @@
           <div class="card mb-4 box-shadow">
             <img class="card-img-top"
               data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Thumbnail [100%x225]" src="images/REACT.png" data-holder-rendered="true"
+              alt="Thumbnail [100%x225]" src="images/angular.png" data-holder-rendered="true"
               style="height: 225px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text"> React is an open-source, front end, JavaScript library for building user interfaces
-                or UI components. <br>It is maintained by Facebook and a community of individual developers and
-                companies. </p>
+              <p class="card-text">Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" id="myButton2" class="float-left submit-button btn-outline-primary">Learn
@@ -291,12 +373,12 @@
 
                   <script type="text/javascript">
                     document.getElementById("myButton2").onclick = function () {
-                      location.href = "https://reactjs.org/";
+                      location.href = "https://angular.io/";
                     };
                   </script>
 
                 </div>
-                <small class="text-muted"> Version 17.0.2 / 22 March 2021</small>
+                <small class="text-muted"> Version 12.1.1 / 30 June 2021;</small>
               </div>
             </div>
           </div>
@@ -311,18 +393,21 @@
     <p>Front-end is all about the visual aspects of the website that a user can see and experience.</p>
     <a class="btn btn-outline-light btn-lg" href="https://en.wikipedia.org/wiki/Front-end_web_developmenthttps://en.wikipedia.org/wiki/Front-end_web_development" role="button">Learn more</a>
   </div>
-  <div class="container-fluid bg-light">
-    <div class="row">
+ 
+    
+     <div class="row">
+
       <div class="col-md-6">
-        <img src="images/fdfix1.png"  alt="front end front-end-development">
+        <img src="images/fdfix1.png"  class="img-fluid" width="600" height="400"alt="front end front-end-development">
       </div>
         <div class="col-md-6">
-          <img src="images/fd2final.jpg"  alt="front end front-end-development">
+          <img src="images/fd2final.jpg"  class="img-fluid" width="600" height="400"alt="front end front-end-development">
         </div>
       
+     </div>
       
-    </div>
-  </div>
+    
+  
   <!-- Footer -->
 <footer class="page-footer font-small blue bg-primary pt-4">
 
@@ -358,9 +443,7 @@
             <p>email id: nagarajbs15@gmail.com</p>
           </li>
           <li>
-           <address>#222 near basaveshwara temple Karekatte,
-            Karekatte (post) , Channagiri (tq) ,
-            Davangere (dist), karnataka</address>
+           <address>#32 4th floor 12th cross vinayaka layout ,<br> K R puram ,Banglore</address>
           </li>
          
         </ul>
